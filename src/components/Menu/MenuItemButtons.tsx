@@ -1,5 +1,5 @@
 import React, { CSSProperties } from "react";
-import * as FontAwesome from "react-icons/lib/fa";
+import * as FontAwesome from "react-icons/fa"
 import { Link } from "react-router-dom";
 import { Button } from "reactstrap";
 

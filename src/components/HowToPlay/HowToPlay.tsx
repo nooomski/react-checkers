@@ -1,7 +1,7 @@
 import React, { Component, CSSProperties } from "react";
-import * as FontAwesome from "react-icons/lib/fa";
+import * as FontAwesome from "react-icons/fa"
 import { Button } from "reactstrap";
-import * as data from "./htp.json";
+import data from "./htp.json"
 import Section from "./Section";
 
 interface ISectionData {
@@ -11,7 +11,7 @@ interface ISectionData {
 }
 
 interface IHTPProps {
-    history: any;
+    goBack: () => void
 }
 interface IHTPState {
     displayButton: boolean;
@@ -55,8 +55,8 @@ export default class HowToPlay extends Component<IHTPProps, IHTPState> {
                     padding: "20px"
                 }}>
                 <h1 className="text-center">How to Play</h1>
-                <Button color="primary" onClick={this.props.history.goBack}>
-                    <FontAwesome.FaLongArrowLeft fontSize="1.5em" /> Back
+                <Button color="primary" onClick={this.props.goBack}>
+                    <FontAwesome.FaLongArrowAltLeft fontSize="1.5em" /> Back
                 </Button>
                 <h2>Table of Contents</h2>
                 {tableOfContents}

@@ -1,5 +1,5 @@
 import React from "react";
-import * as FontAwesome from "react-icons/lib/fa";
+import * as FontAwesome from "react-icons/fa"
 import { Link } from "react-router-dom";
 import { Alert, Button, ListGroup, ListGroupItem } from "reactstrap";
 import { IGameInfo } from "../../sharedTypes";

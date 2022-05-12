@@ -1,29 +1,46 @@
-# react-checkers
+# Getting Started with Create React App
 
-The classic game of Checkers built in [React](https://github.com/facebook/react).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Contents
+## Available Scripts
 
--   [Play](#play)
--   [About](#about)
--   [Features](#features)
--   [Upcoming](#upcoming-features)
+In the project directory, you can run:
 
-## Play
+### `npm start`
 
-You can play the most up-to-date version at http://checkers.surge.sh
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## About
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-The purpose of creating this project was to learn the [React](https://github.com/facebook/react) framework, along with `TypeScript`. As a result, I'm sure there are many things about this project that are far less than perfect. However, it is my goal to keep improving this project as I continue to learn.
+### `npm test`
 
-## Features
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
--   Save multiple games to Local Storage
--   The ability to switch between several saved games
--   Allows player names to be changed mid-game
--   The ability to make a player controled by an "AI"
+### `npm run build`
 
-## Upcoming Features
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
--   There are no planned upcoming features at this time
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
